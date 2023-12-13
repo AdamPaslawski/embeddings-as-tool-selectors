@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "embeddings-as-tool-selectors"
+version = "0.1.0"
+description = ""
+authors = ["AdamPaslawski <adampaslawski@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.3.7"
+tiktoken = "^0.5.2"
+pandas = "^2.1.3"
+numpy = "^1.26.2"
+scipy = "^1.11.4"
+matplotlib = "^3.8.2"
+python-dotenv = "^1.0.0"
+seaborn = "^0.13.0"
+statsmodels = "^0.14.0"
+scikit-learn = "^1.3.2"
+langchain = "^0.0.349"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
